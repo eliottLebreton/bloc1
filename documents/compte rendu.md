@@ -8,6 +8,7 @@ Exemple :
 On va utiliser POST pour les traitements d'informations des données de l'utilisateurs 
 et on va utiliser GET pour les parametres d'un site web ( filtre tri ) 
 
+<<<<<<< HEAD
 # Question 2 :
 
 | Aligné à gauche  | Centré          | Aligné à droite |
@@ -15,3 +16,5 @@ et on va utiliser GET pour les parametres d'un site web ( filtre tri )
 | Aligné à gauche  |   ce texte        |  Aligné à droite |
 | Aligné à gauche  | est             |   Aligné à droite |
 | Aligné à gauche  | centré          |    Aligné à droite |
+=======
+>>>>>>> c9f038ff01bbeba8105b4fab570380bd42fdf0b3
