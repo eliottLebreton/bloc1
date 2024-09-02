@@ -13,5 +13,5 @@ et on va utiliser GET pour les parametres d'un site web ( filtre tri )
 |   		   | GET	     	      | POST   |
 | :--------------- |:---------------:	      | -----: |
 | Visibilité  	   | L'utilisateurs peut voir | invisbile pour l'utilisateur   	|
-| Aligné à gauche  | est             |   Aligné à droite |
-| Aligné à gauche  | centré          |    Aligné à droite |
+| type de données  | ascii             |   ascii et binaire |
+| longueur de données  | limité a 2048          |    illimitées |
