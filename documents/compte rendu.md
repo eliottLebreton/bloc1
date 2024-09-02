@@ -15,3 +15,15 @@ et on va utiliser GET pour les parametres d'un site web ( filtre tri )
 | Visibilité  	   | L'utilisateurs peut voir | invisbile pour l'utilisateur   	|
 | type de données  | ascii             |   ascii et binaire |
 | longueur de données  | limité a 2048          |    illimitées |
+
+# Question 3 :
+
+ les en-têtes HTTP permettent d'étendre facilement le protocole et de mener des expérimentations avec celui-ci. 
+De nouvelles fonctionnalités peuvent même être introduites par un simple accord 
+entre le client et le serveur à propos de la sémantique des nouveaux en-têtes.
+
+# Question 4 :
+
+Cela signifie que chaque requête HTTP reçue par le serveur est indépendante et 
+ne concerne pas les requêtes antérieures .
+
