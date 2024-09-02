@@ -7,3 +7,14 @@ Exemple :
 
 On va utiliser POST pour les traitements d'informations des données de l'utilisateurs 
 et on va utiliser GET pour les parametres d'un site web ( filtre tri ) 
+
+# Question 2 :
+
+|		| 	GET	| 	POST 	|
+
+| :------------ |:------------- |:------------- |
+
+|Visibilité	| Visible pour 	 
+		  l'utilisateur |
+|
+|
