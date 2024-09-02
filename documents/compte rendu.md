@@ -10,11 +10,8 @@ et on va utiliser GET pour les parametres d'un site web ( filtre tri )
 
 # Question 2 :
 
-|		| 	GET	| 	POST 	|
-
-| :------------ |:------------- |:------------- |
-
-|Visibilité	| Visible pour 	 
-		  l'utilisateur |
-|
-|
+| Aligné à gauche  | Centré          | Aligné à droite |
+| :--------------- |:---------------:| -----:|
+| Aligné à gauche  |   ce texte        |  Aligné à droite |
+| Aligné à gauche  | est             |   Aligné à droite |
+| Aligné à gauche  | centré          |    Aligné à droite |
