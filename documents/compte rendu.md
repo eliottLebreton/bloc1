@@ -27,3 +27,12 @@ entre le client et le serveur à propos de la sémantique des nouveaux en-têtes
 Cela signifie que chaque requête HTTP reçue par le serveur est indépendante et 
 ne concerne pas les requêtes antérieures .
 
+# Question 5 : 
+
+Avec https://www.oreilly.com
+
+www = sous domaine
+oreilly = nom de domaine 
+.com = domaine de deuxieme niveau
+
+# Question 6 
