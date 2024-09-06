@@ -36,3 +36,25 @@ oreilly = nom de domaine
 .com = domaine de deuxieme niveau
 
 # Question 6 
+
+1xx - Informational
+exemple : 100 continues
+
+2xx success
+exemple : 200 ok
+
+3xx redirection
+exemple : 301 Moved Permanently
+
+4xx client error
+exemple : 404 not found
+
+5xx servor error 
+exemple : 500 Internal Server Error
+
+# question 7 :
+
+Lorsqu'un client souhaite obtenir une ressource, il la demande via une URL. Le serveur utilise alors cette URL pour choisir l'une des variantes disponibles. 
+Chaque variante est appelée une représentation. Le serveur renvoie alors une représentation donnée au client.
+
+# question 
