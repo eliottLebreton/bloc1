@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.calculator {
+    width: 320px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    color: white;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 70px;
+    height: 60px;
+    background-color: #444;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button.operator {
+    background-color: #ff9500;
+}
+
+button.operator:active {
+    background-color: #ff7700;
+}
+
+button.equal {
+    background-color: #00a5ff;
+    width: calc(160px + 10px); /* Agrandir le bouton "=" pour deux colonnes */
+}
+
+button.equal:active {
+    background-color: #0084cc;
+}
+
+button:active {
+    background-color: #666;
+}
+
+/* Bouton "0" prend deux colonnes */
+.button-zero {
+    width: calc(160px + 10px); /* Agrandir le bouton zéro pour deux colonnes */
+}
