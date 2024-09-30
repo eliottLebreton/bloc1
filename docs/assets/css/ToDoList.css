@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 65%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#addTaskBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addTaskBtn:hover {
+    background-color: #218838;
+}
+
+#taskList {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    text-align: left;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#taskList li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#taskList li span {
+    flex: 1;
+    font-size: 16px;
+    text-align: left;
+}
+
+#taskList li span.checked {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#taskList li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#taskList li button:hover {
+    background-color: #c82333;
+}
+
+.btn-danger {
+    width: 100%;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.save-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.save-section input[type="text"],
+.save-section select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.save-section button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2%;
+    font-size: 16px;
+}
+
+.save-section button:last-child {
+    margin-right: 0;
+}
+
+.btn-primary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #5a6268;
+}
+
+.btn-secondary {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #23272b;
+}
