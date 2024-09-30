@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Liste</title>
+    <link rel="stylesheet" href="../assets/css/toDoList.css">
+    <script src="../js/exercice/ToDoList.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo liste</h1>
+        <input type="text" id="taskInput" placeholder="Nom de la tâche">
+        <button id="addTaskBtn">+ Ajouter une tâche</button>
+        
+        <ul id="taskList"></ul>
+
+        <button id="removeCompletedBtn" class="btn-danger">Supprimer les tâches terminées</button>
+
+        <div class="save-section">
+            <input type="text" id="saveName" placeholder="Nom de la sauvegarde">
+            <button id="saveBtn" class="btn-primary">Sauvegarder</button>
+            <select id="loadSelect">
+                <option value="">Charger une sauvegarde</option>
+            </select>
+            <button id="loadBtn" class="btn-secondary">Charger</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
