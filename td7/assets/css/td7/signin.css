@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+    text-align: center;
+    background-color: #0046b7;
+    color: #fff;
+    padding: 10px;
+    margin: 0 0 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.form-group .password-strength {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.form-group .password-strength span {
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+}
+
+.strength-none { background-color: #ddd; }
+.strength-weak { background-color: red; }
+.strength-medium { background-color: orange; }
+.strength-strong { background-color: green; }
+.strength-excellent { background-color: blue; }
+
+.error-message {
+    color: red;
+    font-size: 0.85em;
+    display: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0046b7;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+/* Barre de force */
+.strength-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s, width 0.3s;
+}
+
+.strength-none {
+    background-color: #e0e0e0;
+    width: 0%;
+}
+
+.strength-weak {
+    background-color: red;
+    width: 25%;
+}
+
+.strength-medium {
+    background-color: orange;
+    width: 50%;
+}
+
+.strength-strong {
+    background-color: grey;
+    width: 75%;
+}
+
+.strength-excellent {
+    background-color: green;
+    width: 100%;
+}
