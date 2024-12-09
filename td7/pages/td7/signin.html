@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/td7/signin.css">
+    <title>Création de Compte</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>CRÉATION DE COMPTE</h2>
+        <form id="signupForm" action="./create-account.php" method="POST">
+            <div class="form-group">
+                <label for="email">Mon adresse mail*</label>
+                <input type="email" id="email" name="email" required>
+                <p id="emailError" style="display: none; color: red;">Adresse e-mail invalide</p>
+            </div>
+            <div class="form-group">
+                <label for="password">Mon mot de passe*</label>
+                <input type="password" id="password" name="password" required>
+                <div id="strengthIndicator" class="strength-bar"></div>
+                <p id="passwordStrength">Force : Aucune</p>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirmation du mot de passe*</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <p id="confirmPasswordError" style="display: none; color: red;">Les deux mots de passe ne correspondent pas</p>
+            </div>
+            <button type="submit">Créer le compte</button>
+        </form>
+    </div>
+
+    <script src="../../js/td7/signin.js"></script>
+</body>
+</html>
